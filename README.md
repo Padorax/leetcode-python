@@ -1,9 +1,15 @@
 # leetcode-python
 
-#3 Tree
+## DFS/BFS, backtracing
+- Easy<br>
+- Medium<br>
+- Hard<br>
+[97 Interleaving string](./files/97.md)
 
+## Tree
+- Easy<br>
 [100 Same Tree](./files/100.md)
-
-[98 Validate BST](./files/98.md)
-
+- Medium<br>
+[95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md)
+- Hard<br>
 [99 Recover BST](./files/99.md)
