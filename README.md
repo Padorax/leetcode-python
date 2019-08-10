@@ -3,8 +3,11 @@
 ## DFS/BFS, backtracing
 - Easy<br>
 - Medium<br>
+[78 Subsets](files/78.md), [90 Subsets II](files/90.md)
 - Hard<br>
 [97 Interleaving string](./files/97.md)
+
+## List
 
 ## Tree
 - Easy<br>
