@@ -15,13 +15,20 @@
 ## Array
 - Easy
 
-[88 Merge Sorted Array](files/88.md)
+[26 RemoveDupFromSortedArray](files/26.md), [88 Merge Sorted Array](files/88.md)
+- Medium
+
+[80 RemoveDupFromSortedArray II](files/80.md)<br>
+* ### Binary search
+[33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
 
 ## List
 - Easy
+  
+[83 RemoveDupfrom Sorted List](files/83.md)
 - Medium<br>
 
-[86 Partition List](files/86.md), [92 Reverse Linked List II](files/92.md)
+[82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md), [92 Reverse Linked List II](files/92.md)
 - Hard
 ```python
 # Definition for singly-linked list.
