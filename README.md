@@ -1,7 +1,9 @@
 # leetcode-python
 
-## DFS/BFS, backtracing
+## DFS/BFS, backtracing, DP
 - Easy<br>
+
+[70 Climb Stairs](files/70.md)
 - Medium<br>
 
 [78 Subsets](files/78.md), [90 Subsets II](files/90.md)<br>
@@ -9,6 +11,7 @@
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
 - Hard
 
+[72 Edit Distance](files/72.md)<br>
 [84 Largest Rectangle in Histogram](files/84.md), [85 Maximal Rectangle](files/85.md)<br>
 [87 Scramble String](files/87.md), [97 Interleaving string](files/97.md)
 
@@ -44,3 +47,9 @@ class ListNode(object):
 [94 Binary Tree Inorder Traversal](files/94.md), [95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md)
 - Hard<br>
 [99 Recover BST](./files/99.md)
+
+## Other
+- Medium<br>
+  
+[71 Simplify Path](files/71.md)<br>
+[73 SetMatrixZeroes](files/73.md)
