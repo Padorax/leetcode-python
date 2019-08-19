@@ -6,12 +6,13 @@
 [70 Climb Stairs](files/70.md)
 - Medium<br>
 
-[78 Subsets](files/78.md), [90 Subsets II](files/90.md)<br>
+[77 Combinations](files/77.md), [78 Subsets](files/78.md), [90 Subsets II](files/90.md)<br>
+[79 Word Search](files/79.md)<br>
 [89 Gray Code](files/89.md)<br>
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
 - Hard
 
-[72 Edit Distance](files/72.md)<br>
+[72 Edit Distance](files/72.md), [76 MinimumWindowSubstring](files/76.md)<br>
 [84 Largest Rectangle in Histogram](files/84.md), [85 Maximal Rectangle](files/85.md)<br>
 [87 Scramble String](files/87.md), [97 Interleaving string](files/97.md)
 
@@ -21,7 +22,7 @@
 [26 RemoveDupFromSortedArray](files/26.md), [88 Merge Sorted Array](files/88.md)
 - Medium
 
-[80 RemoveDupFromSortedArray II](files/80.md)<br>
+[80 RemoveDupFromSortedArray II](files/80.md), [75 Sort Colors](files/75.md)<br>
 * ### Binary search
 [33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
 
@@ -52,4 +53,4 @@ class ListNode(object):
 - Medium<br>
   
 [71 Simplify Path](files/71.md)<br>
-[73 SetMatrixZeroes](files/73.md)
+[73 SetMatrixZeroes](files/73.md), [74 Search2dMatrix](files/74.md)
