@@ -1,5 +1,8 @@
 # leetcode-python
 
+## Bit Operation
+
+
 ## DFS/BFS, backtracing, DP
 - Easy<br>
 
@@ -19,7 +22,8 @@
 ## Array
 - Easy
 
-[26 RemoveDupFromSortedArray](files/26.md), [88 Merge Sorted Array](files/88.md)
+[26 RemoveDupFromSortedArray](files/26.md), [66 PlusOne](files/66.md), [67 AddBinary](files/67.md)<br>
+[88 Merge Sorted Array](files/88.md)
 - Medium
 
 [80 RemoveDupFromSortedArray II](files/80.md), [75 Sort Colors](files/75.md)<br>
@@ -50,7 +54,14 @@ class ListNode(object):
 [99 Recover BST](./files/99.md)
 
 ## Other
+- Easy<br>
+
+[69 Sqrt(x)](files/69.md)
 - Medium<br>
   
 [71 Simplify Path](files/71.md)<br>
 [73 SetMatrixZeroes](files/73.md), [74 Search2dMatrix](files/74.md)
+
+- Hard<br>
+
+[68 TextJustification](files/68.md)
