@@ -9,7 +9,7 @@
 [70 Climb Stairs](files/70.md)
 - Medium<br>
 
-[62 Unique Paths](files/62.me)<br>
+[62 Unique Paths](files/62.md), [63 UniquePaths II](files/63.md), [64 MinimumPathSum](files/64.md)<br>
 [79 Word Search](files/79.md)<br>
 [89 Gray Code](files/89.md)<br>
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
@@ -18,10 +18,6 @@
 [72 Edit Distance](files/72.md)<br>
 [84 Largest Rectangle in Histogram](files/84.md), [85 Maximal Rectangle](files/85.md)<br>
 [87 Scramble String](files/87.md), [97 Interleaving string](files/97.md)
-
-+ #### Sliding window 
-  
-[76 MinimumWindowSubstring](files/76.md)<br>
 
 + #### Combination and Permutations
 [77 Combinations](files/77.md), [78 Subsets](files/78.md), [90 Subsets II](files/90.md)<br>
@@ -66,6 +62,10 @@ class ListNode(object):
 [99 Recover BST](./files/99.md)
 
 ## Other
++ #### Sliding window 
+  
+[76 MinimumWindowSubstring](files/76.md)<br>
+
 - Easy<br>
 
 [69 Sqrt(x)](files/69.md)
@@ -76,4 +76,4 @@ class ListNode(object):
 
 - Hard<br>
 
-[68 TextJustification](files/68.md)
+[65 Valid Number](65.md), [68 TextJustification](files/68.md)
