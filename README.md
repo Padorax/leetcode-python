@@ -1,8 +1,5 @@
 # leetcode-python
 
-## Bit Operation
-
-
 ## DFS/BFS, backtracing, DP
 - Easy<br>
 
@@ -43,13 +40,7 @@
 [61 Rotate List](files/61.md), [82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md)<br>
 [92 Reverse Linked List II](files/92.md)
 - Hard
-```python
-# Definition for singly-linked list.
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-```
+
 ## Tree
 - Easy<br>
 
@@ -66,14 +57,27 @@ class ListNode(object):
   
 [76 MinimumWindowSubstring](files/76.md)<br>
 
++ #### Matrix
+
+[73 SetMatrixZeroes](files/73.md), [74 Search2dMatrix](files/74.md)<br>
+
+
 - Easy<br>
 
 [69 Sqrt(x)](files/69.md)
 - Medium<br>
   
 [71 Simplify Path](files/71.md)<br>
-[73 SetMatrixZeroes](files/73.md), [74 Search2dMatrix](files/74.md)
 
 - Hard<br>
 
-[65 Valid Number](65.md), [68 TextJustification](files/68.md)
+[65 Valid Number](65.md), [68 TextJustification](files/68.md)<br>
+
+## Data Structure
+```python
+# Definition for singly-linked list.
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+```
