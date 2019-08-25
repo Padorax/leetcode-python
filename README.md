@@ -62,10 +62,13 @@ class ListNode(object):
 [99 Recover BST](./files/99.md)
 
 ## Other
+<<<<<<< HEAD
 + #### Sliding window 
   
 [76 MinimumWindowSubstring](files/76.md)<br>
 
+=======
+>>>>>>> 709a23824dde48c794e08433af023a8e1262ebdd
 - Easy<br>
 
 [69 Sqrt(x)](files/69.md)
@@ -76,4 +79,8 @@ class ListNode(object):
 
 - Hard<br>
 
+<<<<<<< HEAD
 [65 Valid Number](65.md), [68 TextJustification](files/68.md)
+=======
+[68 TextJustification](files/68.md)
+>>>>>>> 709a23824dde48c794e08433af023a8e1262ebdd
