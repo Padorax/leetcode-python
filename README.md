@@ -3,15 +3,17 @@
 ## DFS/BFS, backtracing, DP
 - Easy<br>
 
-[70 Climb Stairs](files/70.md)
+[53 MaximumSubArray](files/53.md), [70 Climb Stairs](files/70.md)
 - Medium<br>
 
+[55 Jump Game](files/55.md), [45 JumpGame II](files/45.md)<br>
 [62 Unique Paths](files/62.md), [63 UniquePaths II](files/63.md), [64 MinimumPathSum](files/64.md)<br>
 [79 Word Search](files/79.md)<br>
 [89 Gray Code](files/89.md)<br>
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
 - Hard
 
+[51 N-Queens](files/51.md), [52 N-Queens II](files/52.md)<br>
 [72 Edit Distance](files/72.md)<br>
 [84 Largest Rectangle in Histogram](files/84.md), [85 Maximal Rectangle](files/85.md)<br>
 [87 Scramble String](files/87.md), [97 Interleaving string](files/97.md)
@@ -29,7 +31,7 @@
 
 [80 RemoveDupFromSortedArray II](files/80.md), [75 Sort Colors](files/75.md)<br>
 * ### Binary search
-[33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
+[4 MedianOf2SortedArrays](files/4.m3), [33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
 
 ## List
 - Easy
@@ -60,19 +62,24 @@
 
 + #### Matrix
 
-[73 SetMatrixZeroes](files/73.md), [74 Search2dMatrix](files/74.md)<br>
+[54 Spiral Matrix](files/54.md), [59 Spiral Matrix II](files/59.md), [73 SetMatrixZeroes](files/73.md), [74 Search2dMatrix](files/74.md)<br>
 
++ #### Math
+[50 Pow(x, n)](files/50.md), [69 Sqrt(x)](files/69.md)
 
 - Easy<br>
 
-[69 Sqrt(x)](files/69.md)
+[58 LenOfLastWord](file/58.md)
+
 - Medium<br>
-  
+
+[56 MergeIntervals](files/56.md), 
 [71 Simplify Path](files/71.md)<br>
 
 - Hard<br>
 
-[65 Valid Number](65.md), [68 TextJustification](files/68.md)<br>
+[57 InsertInterval](files/57.md),
+[65 Valid Number](files/65.md), [68 TextJustification](files/68.md)<br>
 
 ## Data Structure
 ```python
