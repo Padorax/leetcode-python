@@ -26,10 +26,17 @@
 [77 Combinations](files/77.md), [78 Subsets](files/78.md), [90 Subsets II](files/90.md)<br>
 [46 Permutations](files/46.md), [47 Permutations II](files/47.md), [60 Permutation Sequence](files/60.md)
 
+## String
+- Easy
+
+[28 Implement strStr()](files/28.md)
+- Medium
+- Hard
+
 ## Array
 - Easy
 
-[26 RemoveDupFromSortedArray](files/26.md), [66 PlusOne](files/66.md), [67 AddBinary](files/67.md)<br>
+[26 RemoveDupFromSortedArray](files/26.md), [27 RemoveElement](files/27.md), [66 PlusOne](files/66.md), [67 AddBinary](files/67.md)<br>
 [88 Merge Sorted Array](files/88.md)
 - Medium
 
@@ -44,12 +51,14 @@
 ## List
 - Easy
   
-[83 RemoveDupfrom Sorted List](files/83.md)
+[21 Merge2SortedLists](files/21.md), [83 RemoveDupfrom Sorted List](files/83.md)
 - Medium<br>
 
-[61 Rotate List](files/61.md), [82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md)<br>
+[24 SwapNodesInPairs](files/24.md), [61 Rotate List](files/61.md), [82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md)<br>
 [92 Reverse Linked List II](files/92.md)
 - Hard
+  
+[23 MergeKSortedLists](files/23.md), [25 ReverseNodesinK-Group](files/25.md)
 
 ## Tree
 - Easy<br>
@@ -75,12 +84,15 @@
 
 + #### HashMap
   
-[49 Group Anagrams](files/49.md)
+[30 SubstringWithConcatenationOfAllWords](files/30.md),[49 Group Anagrams](files/49.md)
 + #### Math
 
-[31 Next Permut](files/31.md)  
-[43 MultiplyStrings](files/43.md)
-[50 Pow(x, n)](files/50.md), [69 Sqrt(x)](files/69.md)
+[31 Next Permute](files/31.md), [43 MultiplyStrings](files/43.md),
+[29 DivideTwoIntegers](files/29.md), [50 Pow(x, n)](files/50.md), [69 Sqrt(x)](files/69.md)
+
++ #### Parenthesis
+  
+[20 ValidParenthesis](files/20.md), [22 Generate Parenthesis](files/22.md), [32 LongestValidParenthesis](files/32.md)<br>
 
 - Easy<br>
 
@@ -93,7 +105,7 @@
 
 - Hard<br>
 
-[32 LongestValidParenthesis](files/32.md),
+
 [57 InsertInterval](files/57.md),
 [65 Valid Number](files/65.md), [68 TextJustification](files/68.md)<br>
 
