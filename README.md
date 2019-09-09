@@ -14,14 +14,15 @@
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
 - Hard
 
-[10 RegularExpMatching](files/10.md), [44 Wildcard Matching](files/44.md)<br>
+[10 regularExpMatching](files/10.md), [44 Wildcard Matching](files/44.md)<br>
 [37 Sudoku Solver](files/37.md), [51 N-Queens](files/51.md), [52 N-Queens II](files/52.md)<br>
 [72 Edit Distance](files/72.md)<br>
 [84 Largest Rectangle in Histogram](files/84.md), [85 Maximal Rectangle](files/85.md)<br>
 [87 Scramble String](files/87.md), [97 Interleaving string](files/97.md)
 
 + #### Combination and Permutations
-  
+
+[17 LetterCombinationOfAPhoneNumber](files/17.md), 
 [39 CombinationSum](files/39.md), [40 CombinationSum II](files/40.md),
 [77 Combinations](files/77.md), [78 Subsets](files/78.md), [90 Subsets II](files/90.md)<br>
 [46 Permutations](files/46.md), [47 Permutations II](files/47.md), [60 Permutation Sequence](files/60.md)
@@ -29,8 +30,10 @@
 ## String
 - Easy
 
-[28 Implement strStr()](files/28.md)
+[14 LongestCommonPrefix](files/14.md), [28 Implement strStr()](files/28.md)
 - Medium
+
+[8 StrintToInteger atoi](files/8.md)
 - Hard
 
 ## Array
@@ -53,8 +56,7 @@
   
 [21 Merge2SortedLists](files/21.md), [83 RemoveDupfrom Sorted List](files/83.md)
 - Medium<br>
-
-[24 SwapNodesInPairs](files/24.md), [61 Rotate List](files/61.md), [82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md)<br>
+[2 Add2Numbers](files/2.md), [19 RemoveNthNodeFromEndOfList](files/19.md), [24 SwapNodesInPairs](files/24.md), [61 Rotate List](files/61.md), [82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md)<br>
 [92 Reverse Linked List II](files/92.md)
 - Hard
   
@@ -74,8 +76,8 @@
 ## Other
 
 + #### Sliding window 
-  
-[76 MinimumWindowSubstring](files/76.md)<br>
+ 
+[3 LongestSubstringWithoutRepeatingCharacters](files/3.md), [76 MinimumWindowSubstring](files/76.md)<br>
 
 + #### Matrix
 
@@ -94,12 +96,20 @@
   
 [20 ValidParenthesis](files/20.md), [22 Generate Parenthesis](files/22.md), [32 LongestValidParenthesis](files/32.md)<br>
 
++ #### N Sum
+[1 2Sum](files/1.md), [15 3Sum](files/15.md), [16 3SumClosest](files/16.md), [18 4Sum](files/18.md)<br>
+
++ #### Palindrome
+
+[5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md)
 - Easy<br>
 
-[38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md)
+[7 ReverseInteger](fiels/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md)
 
 - Medium<br>
 
+[6 ZigZag Conversion](files/6.md), 
+[11 ContainerWithMostWater](files/11.md), [12 IntToRoman](files/12.md),
 [56 MergeIntervals](files/56.md), 
 [71 Simplify Path](files/71.md)<br>
 
