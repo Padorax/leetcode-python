@@ -48,14 +48,19 @@
   
 [41 FirstMissingPositive](files/41.md)
 * ### Binary search
-[4 MedianOf2SortedArrays](files/4.m3), [34 Find1stLastPosOfElementInSortedArr](files/34.md), [35SearchInsertPosition](files/35.md)<br>
+[4 MedianOf2SortedArrays](files/4.md), [34 Find1stLastPosOfElementInSortedArr](files/34.md), [35SearchInsertPosition](files/35.md)<br>
 [33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
+
+## Priority Queue
+
+[215 KthLargestElementInAnArray](files/215.md)
 
 ## List
 - Easy
   
 [21 Merge2SortedLists](files/21.md), [83 RemoveDupfrom Sorted List](files/83.md)
 - Medium<br>
+
 [2 Add2Numbers](files/2.md), [19 RemoveNthNodeFromEndOfList](files/19.md), [24 SwapNodesInPairs](files/24.md), [61 Rotate List](files/61.md), [82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md)<br>
 [92 Reverse Linked List II](files/92.md)
 - Hard
@@ -72,6 +77,14 @@
 - Hard<br>
 
 [99 Recover BST](./files/99.md)
+
+## Graph
+
+[210 Course Schedule](files/210.md)
+
+## Design
+
+[146 LRU Cache](files/146.md)
 
 ## Other
 
@@ -115,8 +128,7 @@
 
 - Hard<br>
 
-
-[57 InsertInterval](files/57.md),
+[42 TrappingRainWater](files/42.md), [57 InsertInterval](files/57.md),
 [65 Valid Number](files/65.md), [68 TextJustification](files/68.md)<br>
 
 ## Data Structure
