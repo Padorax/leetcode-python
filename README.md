@@ -36,6 +36,8 @@
 [8 StrintToInteger atoi](files/8.md)
 - Hard
 
+[273 IntToEnglishWords](files/273.md)
+
 ## Array
 - Easy
 
@@ -114,7 +116,7 @@
 
 + #### Palindrome
 
-[5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md)
+[5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md), [336 PalindromePairs](files/336.md)
 - Easy<br>
 
 [7 ReverseInteger](fiels/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md)
