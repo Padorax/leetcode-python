@@ -9,6 +9,7 @@
 [36 Valid Sudoku](files/36.md)<br>
 [55 Jump Game](files/55.md), [45 JumpGame II](files/45.md)<br>
 [62 Unique Paths](files/62.md), [63 UniquePaths II](files/63.md), [64 MinimumPathSum](files/64.md)<br>
+[322 CoinChange](files/322.md)
 [79 Word Search](files/79.md)<br>
 [89 Gray Code](files/89.md)<br>
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
@@ -36,6 +37,8 @@
 [8 StrintToInteger atoi](files/8.md)
 - Hard
 
+[273 IntToEnglishWords](files/273.md)
+
 ## Array
 - Easy
 
@@ -51,9 +54,9 @@
 [4 MedianOf2SortedArrays](files/4.md), [34 Find1stLastPosOfElementInSortedArr](files/34.md), [35SearchInsertPosition](files/35.md)<br>
 [33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
 
-## Priority Queue
+## Stack, Priority Queue
 
-[215 KthLargestElementInAnArray](files/215.md)
+[215 KthLargestElementInAnArray](files/215.md), [224 BasicCalculator](files/224.md)
 
 ## List
 - Easy
@@ -114,7 +117,7 @@
 
 + #### Palindrome
 
-[5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md)
+[5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md), [336 PalindromePairs](files/336.md)
 - Easy<br>
 
 [7 ReverseInteger](fiels/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md)
