@@ -10,7 +10,7 @@
 [55 Jump Game](files/55.md), [45 JumpGame II](files/45.md)<br>
 [62 Unique Paths](files/62.md), [63 UniquePaths II](files/63.md), [64 MinimumPathSum](files/64.md)<br>
 [322 CoinChange](files/322.md)
-[79 Word Search](files/79.md), [127 WordLadder](file/127.md)<br>
+[79 Word Search](files/79.md), [127 WordLadder](files/127.md), [200 NumberOfIslands](files/200.md)<br>
 [89 Gray Code](files/89.md)<br>
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
 - Hard
@@ -44,18 +44,23 @@
 
 [26 RemoveDupFromSortedArray](files/26.md), [27 RemoveElement](files/27.md), [66 PlusOne](files/66.md), [67 AddBinary](files/67.md)<br>
 [88 Merge Sorted Array](files/88.md)
+[268 MissingNumber](files/268.md)<br>
 - Medium
 
 [80 RemoveDupFromSortedArray II](files/80.md), [75 Sort Colors](files/75.md)<br>
 - Hard
   
-[41 FirstMissingPositive](files/41.md)
+[41 FirstMissingPositive](files/41.md), [287 FindTheDuplicateNumber](files/287.md)
+
+- Other
+
+[121 BestTimeToBuyAndSellStock](files/121.md), [188 BTTBASS IV](files/188.md)
 * ### Binary search
 [4 MedianOf2SortedArrays](files/4.md), [34 Find1stLastPosOfElementInSortedArr](files/34.md), [35SearchInsertPosition](files/35.md)<br>
 [33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
 
 ## Stack, Priority Queue
-
+[225 ImplementStackUsingQueues](files/225.md),
 [215 KthLargestElementInAnArray](files/215.md), [224 BasicCalculator](files/224.md)
 
 ## List
@@ -83,7 +88,7 @@
 
 ## Graph
 
-[210 Course Schedule](files/210.md)
+[207 Course Schedule](files/207.md), [210 Course Schedule II](files/210.md)
 
 ## Design
 
@@ -120,7 +125,7 @@
 [5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md), [336 PalindromePairs](files/336.md)
 - Easy<br>
 
-[7 ReverseInteger](fiels/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md)
+[7 ReverseInteger](fiels/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md), [202 HappyNumber](files/202.md)
 
 - Medium<br>
 
