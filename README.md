@@ -19,7 +19,7 @@
 [37 Sudoku Solver](files/37.md), [51 N-Queens](files/51.md), [52 N-Queens II](files/52.md)<br>
 [72 Edit Distance](files/72.md)<br>
 [84 Largest Rectangle in Histogram](files/84.md), [85 Maximal Rectangle](files/85.md)<br>
-[87 Scramble String](files/87.md), [97 Interleaving string](files/97.md)
+[87 Scramble String](files/87.md), [97 Interleaving string](files/97.md), [115 DistinctSubsequences](files/115.md)
 
 + #### Combination and Permutations
 
@@ -78,10 +78,11 @@
 ## Tree
 - Easy<br>
 
-[100 Same Tree](./files/100.md)
+[100 Same Tree](./files/100.md), [104 MaxDepthOfBinaryTree](files/104.md), [108 ConvertSortedArrToBST](files/108.md), [110 Balanced Binary Tree](files/110.md), [111 MinDepthOfBinaryTree](files/111.md), [112 PathSum](files/112.md)
 - Medium<br>
 
-[94 Binary Tree Inorder Traversal](files/94.md), [95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md)
+[94 Binary Tree Inorder Traversal](files/94.md), [95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md), [113 PathSumII](files/113.md)<br>
+[114 FlattenBinaryTreeoLinkedList](files/114.md)
 - Hard<br>
 
 [99 Recover BST](./files/99.md)
