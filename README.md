@@ -19,7 +19,7 @@
 [37 Sudoku Solver](files/37.md), [51 N-Queens](files/51.md), [52 N-Queens II](files/52.md)<br>
 [72 Edit Distance](files/72.md)<br>
 [84 Largest Rectangle in Histogram](files/84.md), [85 Maximal Rectangle](files/85.md)<br>
-[87 Scramble String](files/87.md), [97 Interleaving string](files/97.md), [115 DistinctSubsequences](files/115.md)
+[87 Scramble String](files/87.md), [97 Interleaving string](files/97.md), [115 DistinctSubsequences](files/115.md), [120 Triangle](files/120.md)
 
 + #### Combination and Permutations
 
@@ -31,7 +31,7 @@
 ## String
 - Easy
 
-[14 LongestCommonPrefix](files/14.md), [28 Implement strStr()](files/28.md)
+[14 LongestCommonPrefix](files/14.md), [28 Implement strStr()](files/28.md), [387 FirstUniqueCharacterInAString](files/387.md)
 - Medium
 
 [8 StrintToInteger atoi](files/8.md)
@@ -47,14 +47,16 @@
 [268 MissingNumber](files/268.md)<br>
 - Medium
 
+[238 ProductOfArrExceptSelf](files/238.md),
 [80 RemoveDupFromSortedArray II](files/80.md), [75 Sort Colors](files/75.md)<br>
+[560 SubArrSumEqualsK](files/560.md)
 - Hard
   
 [41 FirstMissingPositive](files/41.md), [287 FindTheDuplicateNumber](files/287.md)
 
 - Other
 
-[121 BestTimeToBuyAndSellStock](files/121.md), [188 BTTBASS IV](files/188.md)
+[121 BestTimeToBuyAndSellStock](files/121.md), [122BTTBASS II](files/112.md), [123 BTTBASS III](files/123.md), [188 BTTBASS IV](files/188.md)
 * ### Binary search
 [4 MedianOf2SortedArrays](files/4.md), [34 Find1stLastPosOfElementInSortedArr](files/34.md), [35SearchInsertPosition](files/35.md)<br>
 [33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
@@ -66,7 +68,7 @@
 ## List
 - Easy
   
-[21 Merge2SortedLists](files/21.md), [83 RemoveDupfrom Sorted List](files/83.md)
+[21 Merge2SortedLists](files/21.md), [83 RemoveDupfrom Sorted List](files/83.md), [206 Reverse Linked List](files/206.md)
 - Medium<br>
 
 [2 Add2Numbers](files/2.md), [19 RemoveNthNodeFromEndOfList](files/19.md), [24 SwapNodesInPairs](files/24.md), [61 Rotate List](files/61.md), [82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md)<br>
@@ -82,7 +84,7 @@
 - Medium<br>
 
 [94 Binary Tree Inorder Traversal](files/94.md), [95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md), [113 PathSumII](files/113.md)<br>
-[114 FlattenBinaryTreeoLinkedList](files/114.md)
+[114 FlattenBinaryTreeoLinkedList](files/114.md), [116 Populating NextRightPointersinEachNode](files/116.md), [117 116 II](files/117.md)
 - Hard<br>
 
 [99 Recover BST](./files/99.md)
@@ -95,6 +97,7 @@
 
 [146 LRU Cache](files/146.md)
 
+[380 InsertDeleteGetRandomO(1)](files/380.md)
 ## Other
 
 + #### Sliding window 
@@ -112,7 +115,7 @@
 + #### Math
 
 [31 Next Permute](files/31.md), [43 MultiplyStrings](files/43.md),
-[29 DivideTwoIntegers](files/29.md), [50 Pow(x, n)](files/50.md), [69 Sqrt(x)](files/69.md)
+[29 DivideTwoIntegers](files/29.md), [50 Pow(x, n)](files/50.md), [69 Sqrt(x)](files/69.md), [326 PowerOfThree](files/326.md)
 
 + #### Parenthesis
   
@@ -134,11 +137,15 @@
 [11 ContainerWithMostWater](files/11.md), [12 IntToRoman](files/12.md),
 [56 MergeIntervals](files/56.md), 
 [71 Simplify Path](files/71.md)<br>
+[289 GameOfLife](files/289.md)
 
 - Hard<br>
 
 [42 TrappingRainWater](files/42.md), [57 InsertInterval](files/57.md),
 [65 Valid Number](files/65.md), [68 TextJustification](files/68.md)<br>
+
+## Company
+[Goldman Sachs](CompanyTag/GoldmanSachs.md)
 
 ## Data Structure
 ```python
