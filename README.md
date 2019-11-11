@@ -31,10 +31,11 @@
 ## String
 - Easy
 
-[14 LongestCommonPrefix](files/14.md), [28 Implement strStr()](files/28.md), [387 FirstUniqueCharacterInAString](files/387.md)
+[14 LongestCommonPrefix](files/14.md), [28 Implement strStr()](files/28.md), [387 FirstUniqueCharacterInAString](files/387.md)<br>
+[443 StringCompression](files/443.md)
 - Medium
 
-[8 StrintToInteger atoi](files/8.md)
+[8 StrintToInteger atoi](files/8.md), [151 ReverseWordsInAString](files/151.md)
 - Hard
 
 [273 IntToEnglishWords](files/273.md)

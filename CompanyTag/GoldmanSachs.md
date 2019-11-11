@@ -5,7 +5,14 @@
     - [grid game](#grid-game)
     - [maximal commonality](#maximal-commonality)
     - [rotate string](#rotate-string)
-    - [](#)
+    - [maximum average subarray](#maximum-average-subarray)
+    - [find the rank](#find-the-rank)
+    - [matrix game](#matrix-game)
+    - [spiral order prime](#spiral-order-prime)
+    - [whole minute dilemma](#whole-minute-dilemma)
+    - [cap lock](#cap-lock)
+    - [unique substring](#unique-substring)
+    - [reverse algebraic expression](#reverse-algebraic-expression)
 
 ### strange sort
 ![](GoldmanSachs/strangeSort.jpeg)
@@ -13,14 +20,14 @@
 def strangeSort(mapping, nums):
     map = dict()
     for i, n in enumerate(mapping):
-        map[str(n)] = str(i)
+        map[float(n)] = float(i)
 
     # get original number
     def func(num):
         s = ''
         for c in num:
             s += map[c]
-        return int(s)
+        return float(s)
 
     # stable sort
     return sorted(nums, key=func)
@@ -212,4 +219,238 @@ d = [0, 0, 1, 0, 1]
 a = [2, 1, 3, 1, 6]
 print(rotateString(s, d, a))
 ```
-### 
+### maximum average subarray
+![](GoldmanSachs/868.png)
+```python
+class Solution:
+    """
+    @param nums: an array
+    @param k: an integer
+    @return: the maximum average value
+    """
+    def findMaxAverage(self, nums, k):
+        # Write your code here
+        cur = 0
+        for i in range(k):
+            cur += nums[i]
+        res = cur
+        
+        for i in range(k, len(nums)):
+            cur += nums[i] - nums[i - k]
+            res = max(res, cur)
+        
+        return res / k
+```
+
+### find the rank
+![](GoldmanSachs/1804.png)
+```python
+def FindTheRank(scores, K):
+    # write your code here
+    sortedScores = sorted(scores, key=lambda x: sum(x), reverse=True)
+    target = sortedScores[K - 1]
+    
+    for i in range(len(scores)):
+        if scores[i] == target:
+            return i
+```
+```python
+def FindTheRank(scores, K):
+        # write your code here
+        return sorted([[sum(score), i] for i, score in enumerate(scores)], reverse = True)[K - 1][1]
+```
+Find Kth largest element, use score sum to heapify score index.
+```python
+import heapq
+def findRank(scores, K):
+    h = []
+    for i in range(K):
+        h.append((sum(scores[i]), i))
+    heapq.heapify(h)
+
+    for i in range(K, len(scores)):
+        add = sum(scores[i])
+        if add > h[0][0]:
+            heapq.heappop(h)
+            heapq.heappush(h, (add, i))
+
+    return heapq.heappop(h)[1]
+```
+
+### matrix game
+![](GoldmanSachs/1421.png)
+```python
+def MatrixGame(grids):
+    if not grids or not grids[0]: return 0
+    
+    colMax = []
+    m, n = len(grids), len(grids[0])
+    for j in range(n):
+        maxVal = grids[0][j]
+        for i in range(1, m):
+            maxVal = grids[i][j] if grids[i][j] > maxVal else maxVal
+        colMax.append(maxVal)
+    
+    list.sort(colMax, reverse=True)
+    
+    res = 0
+    for i in range(n):
+        if i % 2 == 0:
+            res += colMax[i]
+        else:
+            res -= colMax[i]
+    
+    return res
+```
+
+### spiral order prime
+check if prime: [1](https://blog.csdn.net/afei__/article/details/80638460), [2](https://www.jianshu.com/p/0ff11ac83cae).
+```python
+def spiralMatrix(grid):
+    res = []
+    m, n = len(grid), len(grid[0])
+    primeTable = getPrimeTable(100)
+
+    rowS, rowE, colS, colE = 0, m, 0, n
+    while rowS < rowE and colS < colE:
+        for j in range(colS, colE):
+            res.append(grid[rowS][j])
+        rowS += 1
+        if colS < colE:
+            for i in range(rowS, rowE):
+                if primeTable[grid[i][colE-1]]:
+                    res.append(grid[i][colE-1])
+            colE -= 1
+        if rowS < rowE:
+            for j in reversed(range(colS, colE)):
+                if primeTable[grid[rowE-1][j]]:
+                    res.append(grid[rowE-1][j])
+            rowE -= 1
+        if colS < colE:
+            for i in reversed(range(rowS, rowE)):
+                if primeTable[grid[i][colS]]:
+                    res.append(grid[i][colS])
+            colS += 1
+
+    return res
+
+def getPrimeTable(n):
+    isPrime = [True] * n
+    isPrime[0] = False
+    isPrime[1] = False
+    for i in range(2, int(n ** 0.5)):
+        if isPrime[i]:
+            for j in range(2, n//i):
+                isPrime[i * j] = False
+
+    return isPrime
+
+g = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9],
+     [10, 11, 12]]
+print(spiralMatrix(g))
+```
+
+### whole minute dilemma
+variant of 2 sum. Given a song, that how many time pairs' sum is multiple of 60. (note has to be pair, single 60 does not work)
+```python
+def wholeMinute(times):
+    for time in times:
+        time %= 60
+    map = dict()
+    res = 0
+    for t in times:
+        if 60 - t in map:
+            res += map[60 - t]
+
+        map[t] = map.get(t, 0) + 1
+
+    return res
+
+t = [20, 40, 60]#1
+print(wholeMinute(t))
+```
+
+### cap lock
+```python
+# if meet 'a', cap lock; if meet '\', back to normal
+def capLock(s):
+    res = r''
+    isLocked = False
+    for c in s:
+        if c is 'a':
+            isLocked = True
+            continue
+        if c is '\\':
+            isLocked = False
+            res += c
+        elif c.isalpha() and c.islower() and isLocked:
+            res += c.upper()
+        else:
+            res += c
+
+    return res
+
+print(capLock("My keyboard is broken!"))
+# "My keyboRD IS BROKEN!"
+print(capLock(r"\"Baa, Baa!\" said the sheep"))
+# "\"B, B!\" sID THE SHEEP"
+```
+
+### unique substring
+```python
+#given string，find all substrings of len k
+# e.g.,\’ababacc’, k = 3 -> [‘aba’, ‘acc’, ‘bab’, ‘bac’]
+def uniqueSubstring(s, k):
+    res = []
+    dfs(0, [], res, s, k)
+    return res
+
+def dfs(start, path, res, s, count):
+    if count == 0:
+        if path not in res:
+            res.append(path)
+        return
+
+    for i in range(start, len(s) - count + 1):
+        dfs(i + 1, path+[s[i]], res, s, count-1)
+
+# print(uniqueSubstring("ababc", 3))
+print(uniqueSubstring("abcbab", 2))
+```
+
+### reverse algebraic expression
+```python
+def reverseAlgebra(s):
+    stack = []
+    isNum = True
+    if not s: return ""
+
+    tmp = s[0]
+    for i in range(1, len(s)):
+        cur = s[i]
+        if isNum and (cur.isdigit() or cur == '.'):
+            tmp += cur
+        elif isNum and (cur == '+' or cur == '-' or cur == '*' or cur == '/'):
+            stack.append(tmp)
+            tmp = cur
+            isNum = False
+        elif not isNum and (cur == '+' or cur == '-' or cur == '*' or cur == '/'):
+            stack.append(tmp)
+            tmp = cur
+            isNum = True
+        elif not isNum and cur.isdigit():
+            stack.append(tmp)
+            tmp = cur
+            isNum = True
+
+    stack.append(tmp)
+    return ''.join(reversed(stack))
+
+print(reverseAlgebra("1*2.4+9.6-23.89"))#"23.89-9.6+2.4*1"
+print(reverseAlgebra("1*2.4+-9.6-23.89"))#"23.89--9.6+2.4*1"
+print(reverseAlgebra("-1*2.4+-9.6-23.89"))#"23.89--9.6+2.4*-1
+print(reverseAlgebra("-12*2.4+-9.6--23.89"))#-23.89--9.6+2.4*-12
+print(reverseAlgebra("-1*1.2/3-44"))
+```
