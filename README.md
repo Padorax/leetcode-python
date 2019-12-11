@@ -46,6 +46,7 @@
 [26 RemoveDupFromSortedArray](files/26.md), [27 RemoveElement](files/27.md), [66 PlusOne](files/66.md), [67 AddBinary](files/67.md)<br>
 [88 Merge Sorted Array](files/88.md)
 [268 MissingNumber](files/268.md)<br>
+[349 IntersectionOf2Arrays](files/349.md)
 - Medium
 
 [238 ProductOfArrExceptSelf](files/238.md),
@@ -63,7 +64,7 @@
 [33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
 
 ## Stack, Priority Queue
-[225 ImplementStackUsingQueues](files/225.md),
+[155 Minimum Stack](files/155.md), [225 ImplementStackUsingQueues](files/225.md),
 [215 KthLargestElementInAnArray](files/215.md), [224 BasicCalculator](files/224.md)
 
 ## List
@@ -84,7 +85,7 @@
 [100 Same Tree](./files/100.md), [104 MaxDepthOfBinaryTree](files/104.md), [108 ConvertSortedArrToBST](files/108.md), [110 Balanced Binary Tree](files/110.md), [111 MinDepthOfBinaryTree](files/111.md), [112 PathSum](files/112.md)
 - Medium<br>
 
-[94 Binary Tree Inorder Traversal](files/94.md), [95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md), [113 PathSumII](files/113.md)<br>
+[94 Binary Tree Inorder Traversal](files/94.md), [95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md), [105 Construct BT From Preorder and Inorder](files/105.md), [113 PathSumII](files/113.md)<br>
 [114 FlattenBinaryTreeoLinkedList](files/114.md), [116 Populating NextRightPointersinEachNode](files/116.md), [117 116 II](files/117.md)
 - Hard<br>
 
@@ -130,7 +131,7 @@
 [5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md), [336 PalindromePairs](files/336.md)
 - Easy<br>
 
-[7 ReverseInteger](fiels/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md), [202 HappyNumber](files/202.md)
+[7 ReverseInteger](files/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md), [202 HappyNumber](files/202.md)
 
 - Medium<br>
 

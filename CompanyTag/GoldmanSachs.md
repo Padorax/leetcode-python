@@ -13,14 +13,19 @@
     - [cap lock](#cap-lock)
     - [unique substring](#unique-substring)
     - [reverse algebraic expression](#reverse-algebraic-expression)
+    - [Smallest subarray with sum greater than a given value](#smallest-subarray-with-sum-greater-than-a-given-value)
+    - [Average score](#average-score)
+    - [First Unique Char](#first-unique-char)
+    - [Cycle In Array](#cycle-in-array)
+
 
 ### strange sort
 ![](GoldmanSachs/strangeSort.jpeg)
 ```python
 def strangeSort(mapping, nums):
-    map = dict()
+    map = {'.':'.'}
     for i, n in enumerate(mapping):
-        map[float(n)] = float(i)
+        map[str(n)] = str(i)
 
     # get original number
     def func(num):
@@ -29,7 +34,6 @@ def strangeSort(mapping, nums):
             s += map[c]
         return float(s)
 
-    # stable sort
     return sorted(nums, key=func)
 
 
@@ -37,7 +41,9 @@ def strangeSort(mapping, nums):
 # mapping = [2,1,4,8,6,3,0,9,7,5]
 m = [3, 5, 4, 6, 2, 7, 9, 8, 0, 1]
 n = ['990', '332', '32']
+n2 = ['1.2','1.5','3.6']#9.4, 9.1, 0.3
 print(strangeSort(m, n))
+print(strangeSort(m, n2))
 ```
 
 ### share purchase
@@ -453,4 +459,93 @@ print(reverseAlgebra("1*2.4+-9.6-23.89"))#"23.89--9.6+2.4*1"
 print(reverseAlgebra("-1*2.4+-9.6-23.89"))#"23.89--9.6+2.4*-1
 print(reverseAlgebra("-12*2.4+-9.6--23.89"))#-23.89--9.6+2.4*-12
 print(reverseAlgebra("-1*1.2/3-44"))
+```
+
+### Smallest subarray with sum greater than a given value
+all positive value
+```python
+
+```
+with negative value
+```python
+```
+### Average score
+Coderpad: given an array scores [][] = {“jerry”,”65”},{“bob”,”91”}, {“jerry”,”23”}, {“Eric”,”83”}} Find the student with highest average score
+```python
+def getHighestAvgScore(scores):
+    score_map = {}
+    for score in scores:
+        if score[0] in score_map:
+            score_map[score[0]].append(int(score[1]))
+        else:
+            score_map[score[0]] = [int(score[1])]
+
+    avg_map = {}
+    student = ""
+    highest = -float('inf')
+    for s in score_map:
+        avg = sum(score_map[s]) / len(score_map)
+        avg_map[s] = avg
+        if avg_map[s] > highest:
+            highest = avg_map[s]
+            student = s
+
+    return student
+
+scores = [["Jerry", "65"], ["Bob", "91"], ["Jerry", "23"], ["Eric", "83"]]
+print(getHighestAvgScore(scores))
+```
+
+### First Unique Char
+Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1. For ex, s = "leetcode"
+return 0.
+```python
+class Solution(object):
+    def firstUniqChar(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        # in orders, -1 represents haven't met this char,
+        # -2 represents met more than once, otherwise represent position of char in s
+        orders = [-1] * 26
+        for i in range(len(s)):
+            pos = ord(s[i]) - 97
+            if orders[pos] == -1:
+                orders[pos] = i
+            elif orders[pos] != -2:
+                orders[pos] = -2
+        
+        res = float('inf')
+        for p in orders:
+            if p >= 0 and p < res:
+                res = p
+
+        if res != float('inf'):
+            return res
+        else:
+            return -1
+```
+
+### Cycle In Array
+Given an integer array of size n. Elements of the array is >= 0. Starting from arr[startInd], follow each element to the index it points to. Find a cycle and return its length. No cycle is found -> -1.
+```python
+def findCircle(nums, start):
+    s = nums[start]
+    f = nums[nums[start]]
+    sSoFar = 1
+    if s == f:
+        return -1
+    while s != f:
+        s = nums[s]
+        sSoFar += 1
+        f = nums[nums[f]]
+
+    return sSoFar
+
+print(findCircle([1, 0], 0))#2
+print(findCircle([1, 2, 0], 0))#3
+print(findCircle([1, 2, 3, 1], 0))#3
+print(findCircle([0, 1, 1, 1], 0))#-1
+
 ```
