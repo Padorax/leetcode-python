@@ -13,7 +13,8 @@
 [79 Word Search](files/79.md), [127 WordLadder](files/127.md), [200 NumberOfIslands](files/200.md)<br>
 [89 Gray Code](files/89.md)<br>
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
-[931 minFallingPathSum](files/931.md)
+[931 minFallingPathSum](files/931.md), 
+[1084 LongestStrChain](files/1084.md)
 - Hard
 
 [10 regularExpMatching](files/10.md), [44 Wildcard Matching](files/44.md)<br>
@@ -33,7 +34,7 @@
 - Easy
 
 [14 LongestCommonPrefix](files/14.md), [28 Implement strStr()](files/28.md), [387 FirstUniqueCharacterInAString](files/387.md)<br>
-[443 StringCompression](files/443.md)
+[443 StringCompression](files/443.md), [720 LongestWordInDict](files/720.md)
 - Medium
 
 [8 StrintToInteger atoi](files/8.md), [151 ReverseWordsInAString](files/151.md), [166 FractionToRecurringDecimal](files/166.md)
@@ -135,6 +136,10 @@
 + #### Palindrome
 
 [5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md), [336 PalindromePairs](files/336.md)
+
++ #### Interval
+[57 InsertInterval](files/57.md), [56 MergeIntervals](files/56.md), [986 IntervalListIntersection](files/986.md)
+
 - Easy<br>
 
 [7 ReverseInteger](files/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md), [202 HappyNumber](files/202.md), [657 RobotReturnToOrigin](files/657.md)
@@ -142,14 +147,14 @@
 - Medium<br>
 
 [6 ZigZag Conversion](files/6.md), 
-[11 ContainerWithMostWater](files/11.md), [12 IntToRoman](files/12.md),
-[56 MergeIntervals](files/56.md), 
+[11 ContainerWithMostWater](files/11.md), [12 IntToRoman](files/12.md)<br>
+
 [71 Simplify Path](files/71.md)<br>
 [289 GameOfLife](files/289.md)
 
 - Hard<br>
 
-[42 TrappingRainWater](files/42.md), [57 InsertInterval](files/57.md),
+[42 TrappingRainWater](files/42.md), 
 [65 Valid Number](files/65.md), [68 TextJustification](files/68.md)<br>
 
 ## Company

@@ -17,7 +17,8 @@
     - [Average score](#average-score)
     - [First Unique Char](#first-unique-char)
     - [Cycle In Array](#cycle-in-array)
-
+    - [Minimum distance between words of a string](#minimum-distance-between-words-of-a-string)
+    - [Find state for a given version number](#find-state-for-a-given-version-number)
 
 ### strange sort
 ![](GoldmanSachs/strangeSort.jpeg)
@@ -464,7 +465,28 @@ print(reverseAlgebra("-1*1.2/3-44"))
 ### Smallest subarray with sum greater than a given value
 all positive value
 ```python
+class Solution(object):
+    def minSubArrayLen(self, s, nums):
+        """
+        :type s: int
+        :type nums: List[int]
+        :rtype: int
+        """
+        i = 0
+        windowSum = 0
+        minLen = len(nums) + 1
 
+        for j in range(len(nums)):
+            windowSum += nums[j]
+            while windowSum >= s:
+                minLen = min(minLen, j - i + 1)
+                windowSum -= nums[i]
+                i += 1
+
+        if minLen > len(nums):
+            return 0
+        else:
+            return minLen
 ```
 with negative value
 ```python
@@ -547,5 +569,116 @@ print(findCircle([1, 0], 0))#2
 print(findCircle([1, 2, 0], 0))#3
 print(findCircle([1, 2, 3, 1], 0))#3
 print(findCircle([0, 1, 1, 1], 0))#-1
+```
 
+### Minimum distance between words of a string
+<!-- [lc 244](https://leetcode.com/articles/shortest-word-distance-ii/) -->
+single query
+```python
+def distance(s, w1, w2):
+    if w1 == w2:
+        return 0
+
+    # get individual words in a list
+    words = s.lower().split(" ")
+    n = len(words)
+
+    # assume total length of the string as
+    # minimum distance
+    min_dist = n + 1
+    p1, p2 = -1, -1
+    for i in range(n):
+        if s[i] == w1:
+            if p2 >= 0:
+                min_dist = min(min_dist, i - p2)
+            p1 = i
+
+        elif s[i] == w2:
+            if p1 >= 0:
+                min_dist = min(min_dist, i - p1)
+
+            p2 = i
+
+    if min_dist <= n:
+        return min_dist
+```
+If multiple queries
+```python
+from collections import defaultdict
+class WordDistance:
+    def __init__(self, words):
+        """
+        :type words: List[str]
+        """
+        self.locations = defaultdict(list)
+
+        # Prepare a mapping from a word to all it's locations (indices).
+        for i, w in enumerate(words):
+            self.locations[w].append(i)
+
+    def shortest(self, word1, word2):
+        """
+        :type word1: str
+        :type word2: str
+        :rtype: int
+        """
+        loc1, loc2 = self.locations[word1], self.locations[word2]
+        l1, l2 = 0, 0
+        min_diff = float("inf")
+
+        # Until the shorter of the two lists is processed
+        while l1 < len(loc1) and l2 < len(loc2):
+            min_diff = min(min_diff, abs(loc1[l1] - loc2[l2]))
+            if loc1[l1] < loc2[l2]:
+                l1 += 1
+            else:
+                l2 += 1
+        return min_diff
+```
+
+### Find state for a given version number
+Given a queue with operations such as push()and pop() and another attribute named version number which is incremented each time an operation is perfomed on the queue find the state of the queue at a particular version number without using a lot of memory.
+
+Example:
+
+Input: [[0,1],[0,2],[1],[1],[0,3]], version=3
+Output: [2]
+Explanation: Version 1: [1], Version 2: [1,2], Version 3: [2], Version 4: [], Version 5: [3]
+
+Format: Push = [0,element], Pop = [1]
+Refer to [here](https://leetcode.com/discuss/interview-question/359046/goldman-sachs-onsite-find-state-for-a-given-version-number).
+```get the simplified equivalent operation (similarly , rotate string, booking)```
+```python
+def getOperations(ops, v):
+    l = 0
+    for r in range(v):
+        if ops[r][0] == 1:
+            l += 1
+            while ops[l][0] != 0:
+                l += 1
+
+    res = []
+    for i in range(l, v):
+        if ops[i][0] == 0:
+            res.append(ops[i][1])
+
+    return res
+```
+
+### repeating max
+```python
+def getRepeatingMax(s):
+    left = 0
+    max_len = 0
+    count = 1
+    for i in range(len(s) - 1):
+        if s[i] == s[i + 1]:
+            count += 1
+            if count > max_len:
+                max_len = count
+                left = i - count + 1
+        else:
+            count = 1
+    
+    return [left, count]
 ```
