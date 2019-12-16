@@ -13,6 +13,7 @@
 [79 Word Search](files/79.md), [127 WordLadder](files/127.md), [200 NumberOfIslands](files/200.md)<br>
 [89 Gray Code](files/89.md)<br>
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
+[931 minFallingPathSum](files/931.md)
 - Hard
 
 [10 regularExpMatching](files/10.md), [44 Wildcard Matching](files/44.md)<br>
@@ -35,7 +36,7 @@
 [443 StringCompression](files/443.md)
 - Medium
 
-[8 StrintToInteger atoi](files/8.md), [151 ReverseWordsInAString](files/151.md)
+[8 StrintToInteger atoi](files/8.md), [151 ReverseWordsInAString](files/151.md), [166 FractionToRecurringDecimal](files/166.md)
 - Hard
 
 [273 IntToEnglishWords](files/273.md)
@@ -44,37 +45,41 @@
 - Easy
 
 [26 RemoveDupFromSortedArray](files/26.md), [27 RemoveElement](files/27.md), [66 PlusOne](files/66.md), [67 AddBinary](files/67.md)<br>
-[88 Merge Sorted Array](files/88.md)
+[88 Merge Sorted Array](files/88.md), [189 RotateArr](files/189.md),
 [268 MissingNumber](files/268.md)<br>
-[349 IntersectionOf2Arrays](files/349.md)
+[118 Pascal's Triangle](files/118.md), [119 Pascal's Triangle II](files/119.md)<br>
+[349 IntersectionOf2Arrays](files/349.md), [628 maximumProductOf3Nums](files/628.md), [1010 numPairsDivisibleBy60](files/1010.md)
 - Medium
 
 [238 ProductOfArrExceptSelf](files/238.md),
 [80 RemoveDupFromSortedArray II](files/80.md), [75 Sort Colors](files/75.md)<br>
-[560 SubArrSumEqualsK](files/560.md)
+[560 SubArrSumEqualsK](files/560.md), [1109 CorporateFlightBookings](files/1109.md)
 - Hard
   
-[41 FirstMissingPositive](files/41.md), [287 FindTheDuplicateNumber](files/287.md)
-
+[41 FirstMissingPositive](files/41.md), 
 - Other
 
 [121 BestTimeToBuyAndSellStock](files/121.md), [122BTTBASS II](files/112.md), [123 BTTBASS III](files/123.md), [188 BTTBASS IV](files/188.md)
 * ### Binary search
 [4 MedianOf2SortedArrays](files/4.md), [34 Find1stLastPosOfElementInSortedArr](files/34.md), [35SearchInsertPosition](files/35.md)<br>
-[33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md)
+[33 SearchInRotatedSortedArray](files/33.md), [81 SearchInRotatedSortedArray II](files/81.md), [153 FindMinimumInRotatedSortedArr](files/153.md)
 
 ## Stack, Priority Queue
 [155 Minimum Stack](files/155.md), [225 ImplementStackUsingQueues](files/225.md),
 [215 KthLargestElementInAnArray](files/215.md), [224 BasicCalculator](files/224.md)
 
+## Cycle
+[142 LinkedListCycleII](files/142.md), [287 FindTheDuplicateNumber](files/287.md), [457 Circular Arr Loop](files/457.md)
+
 ## List
 - Easy
   
-[21 Merge2SortedLists](files/21.md), [83 RemoveDupfrom Sorted List](files/83.md), [206 Reverse Linked List](files/206.md)
+[21 Merge2SortedLists](files/21.md), [83 RemoveDupfrom Sorted List](files/83.md), [141 LinkedListCycle](files/141.md), [206 Reverse Linked List](files/206.md), [160 IntersectionOf2LinkedList](files/160.md)
 - Medium<br>
 
 [2 Add2Numbers](files/2.md), [19 RemoveNthNodeFromEndOfList](files/19.md), [24 SwapNodesInPairs](files/24.md), [61 Rotate List](files/61.md), [82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md)<br>
-[92 Reverse Linked List II](files/92.md)
+[92 Reverse Linked List II](files/92.md)<br>
+
 - Hard
   
 [23 MergeKSortedLists](files/23.md), [25 ReverseNodesinK-Group](files/25.md)
@@ -93,18 +98,18 @@
 
 ## Graph
 
-[207 Course Schedule](files/207.md), [210 Course Schedule II](files/210.md)
+[207 Course Schedule](files/207.md), [210 Course Schedule II](files/210.md), [332 Reconstruct Itinerary](files/332.md)
 
 ## Design
 
 [146 LRU Cache](files/146.md)
 
-[380 InsertDeleteGetRandomO(1)](files/380.md)
+[380 InsertDeleteGetRandomO(1)](files/380.md), [535 EncodeAndDecodeTinyURL](files/535.md)
 ## Other
 
 + #### Sliding window 
  
-[3 LongestSubstringWithoutRepeatingCharacters](files/3.md), [76 MinimumWindowSubstring](files/76.md)<br>
+[3 LongestSubstringWithoutRepeatingCharacters](files/3.md), [76 MinimumWindowSubstring](files/76.md), [209 MinimumSubArrLen](files/209.md)<br>
 
 + #### Matrix
 
@@ -125,13 +130,14 @@
 
 + #### N Sum
 [1 2Sum](files/1.md), [15 3Sum](files/15.md), [16 3SumClosest](files/16.md), [18 4Sum](files/18.md)<br>
+[2Sum II InputArrOrdered](files/167.md)
 
 + #### Palindrome
 
 [5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md), [336 PalindromePairs](files/336.md)
 - Easy<br>
 
-[7 ReverseInteger](files/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md), [202 HappyNumber](files/202.md)
+[7 ReverseInteger](files/7.md), [13 RomanToInt](files/13.md), [38 CountAndSay](files/38.md), [58 LenOfLastWord](files/58.md), [202 HappyNumber](files/202.md), [657 RobotReturnToOrigin](files/657.md)
 
 - Medium<br>
 
