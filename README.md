@@ -14,7 +14,7 @@
 [89 Gray Code](files/89.md)<br>
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
 [931 minFallingPathSum](files/931.md), 
-[1084 LongestStrChain](files/1084.md)
+[1048 LongestStrChain](files/1048.md)
 - Hard
 
 [10 regularExpMatching](files/10.md), [44 Wildcard Matching](files/44.md)<br>
