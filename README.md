@@ -92,7 +92,7 @@
 - Medium<br>
 
 [94 Binary Tree Inorder Traversal](files/94.md), [95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md), [105 Construct BT From Preorder and Inorder](files/105.md), [113 PathSumII](files/113.md)<br>
-[114 FlattenBinaryTreeoLinkedList](files/114.md), [116 Populating NextRightPointersinEachNode](files/116.md), [117 116 II](files/117.md)
+[114 FlattenBinaryTreeoLinkedList](files/114.md), [116 Populating NextRightPointersinEachNode](files/116.md), [117 116 II](files/117.md), [199 BinaryTreeRightSideView](files/199.md)
 - Hard<br>
 
 [99 Recover BST](./files/99.md)
@@ -111,11 +111,12 @@
 + #### Sliding window 
  
 [3 LongestSubstringWithoutRepeatingCharacters](files/3.md), [76 MinimumWindowSubstring](files/76.md), [209 MinimumSubArrLen](files/209.md)<br>
+[239 SlidingWindowMaximum](files/239.md)
 
 + #### Matrix
 
 [48 Rotate Image](files/48.md)
-[54 Spiral Matrix](files/54.md), [59 Spiral Matrix II](files/59.md), [73 SetMatrixZeroes](files/73.md), [74 Search2dMatrix](files/74.md)<br>
+[54 Spiral Matrix](files/54.md), [59 Spiral Matrix II](files/59.md), [73 SetMatrixZeroes](files/73.md), [74 Search2dMatrix](files/74.md), [240 Search2dMatrixII](files/240.md)<br>
 
 + #### HashMap
   
@@ -135,7 +136,7 @@
 
 + #### Palindrome
 
-[5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md), [336 PalindromePairs](files/336.md)
+[5 LongestPalindromSubstring](files/5.md), [9 PalindromeNumber](files/9.md), [336 PalindromePairs](files/336.md), [647 PalindromicSubstrings](files/647.md),
 
 + #### Interval
 [57 InsertInterval](files/57.md), [56 MergeIntervals](files/56.md), [986 IntervalListIntersection](files/986.md)
