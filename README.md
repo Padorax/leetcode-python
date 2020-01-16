@@ -14,7 +14,7 @@
 [89 Gray Code](files/89.md)<br>
 [91 Decode ways](files/91.md), [93 Restore IP Addrs](files/93.md)
 [931 minFallingPathSum](files/931.md), 
-[1048 LongestStrChain](files/1048.md)
+[718 MaximumLenOfRepeatedSubArr](files/718.md), [1048 LongestStrChain](files/1048.md)
 - Hard
 
 [10 regularExpMatching](files/10.md), [44 Wildcard Matching](files/44.md)<br>
@@ -57,7 +57,7 @@
 [560 SubArrSumEqualsK](files/560.md), [1109 CorporateFlightBookings](files/1109.md)
 - Hard
   
-[41 FirstMissingPositive](files/41.md), 
+[41 FirstMissingPositive](files/41.md), [862 ShortestSubArrWithSumAtLeastK](files/862.md)
 - Other
 
 [121 BestTimeToBuyAndSellStock](files/121.md), [122BTTBASS II](files/112.md), [123 BTTBASS III](files/123.md), [188 BTTBASS IV](files/188.md)
@@ -91,7 +91,8 @@
 [100 Same Tree](./files/100.md), [101 Symmetric Tree](files/101.md), [104 MaxDepthOfBinaryTree](files/104.md), [108 ConvertSortedArrToBST](files/108.md), [110 Balanced Binary Tree](files/110.md), [111 MinDepthOfBinaryTree](files/111.md), [112 PathSum](files/112.md)
 - Medium<br>
 
-[94 Binary Tree Inorder Traversal](files/94.md), [95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md), [105 Construct BT From Preorder and Inorder](files/105.md), [113 PathSumII](files/113.md)<br>
+[94 Binary Tree Inorder Traversal](files/94.md), [102 BinaryTreeLevelOrderTraversal](files/102.md)<br>
+[95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md), [105 Construct BT From Preorder and Inorder](files/105.md), [113 PathSumII](files/113.md)<br>
 [114 FlattenBinaryTreeoLinkedList](files/114.md), [116 Populating NextRightPointersinEachNode](files/116.md), [117 116 II](files/117.md), [199 BinaryTreeRightSideView](files/199.md)
 - Hard<br>
 
