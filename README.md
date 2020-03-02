@@ -96,7 +96,7 @@
 [114 FlattenBinaryTreeoLinkedList](files/114.md), [116 Populating NextRightPointersinEachNode](files/116.md), [117 116 II](files/117.md), [199 BinaryTreeRightSideView](files/199.md)
 - Hard<br>
 
-[99 Recover BST](./files/99.md)
+[99 Recover BST](./files/99.md), [124 BinaryTreeMaximumPathSum](files/124.md)
 
 ## Graph
 
