@@ -34,7 +34,7 @@
 - Easy
 
 [14 LongestCommonPrefix](files/14.md), [28 Implement strStr()](files/28.md), [387 FirstUniqueCharacterInAString](files/387.md)<br>
-[443 StringCompression](files/443.md), [720 LongestWordInDict](files/720.md)
+[443 StringCompression](files/443.md), [720 LongestWordInDict](files/720.md), [1422 MaximumScoreAfterSplittingAString](files/1422.md)
 - Medium
 
 [8 StrintToInteger atoi](files/8.md), [151 ReverseWordsInAString](files/151.md), [166 FractionToRecurringDecimal](files/166.md)
@@ -46,7 +46,7 @@
 - Easy
 
 [26 RemoveDupFromSortedArray](files/26.md), [27 RemoveElement](files/27.md), [66 PlusOne](files/66.md), [67 AddBinary](files/67.md)<br>
-[88 Merge Sorted Array](files/88.md), [189 RotateArr](files/189.md),
+[88 Merge Sorted Array](files/88.md), [169 MajorityElement](files/169.md), [189 RotateArr](files/189.md),
 [268 MissingNumber](files/268.md)<br>
 [118 Pascal's Triangle](files/118.md), [119 Pascal's Triangle II](files/119.md)<br>
 [349 IntersectionOf2Arrays](files/349.md), [628 maximumProductOf3Nums](files/628.md), [1010 numPairsDivisibleBy60](files/1010.md)
@@ -67,7 +67,7 @@
 
 ## Stack, Priority Queue
 [155 Minimum Stack](files/155.md), [225 ImplementStackUsingQueues](files/225.md),
-[215 KthLargestElementInAnArray](files/215.md), [224 BasicCalculator](files/224.md)
+[215 KthLargestElementInAnArray](files/215.md), [224 BasicCalculator](files/224.md), [295 FindMedianFromDataStream](files/295.md)
 
 ## Cycle
 [142 LinkedListCycleII](files/142.md), [287 FindTheDuplicateNumber](files/287.md), [457 Circular Arr Loop](files/457.md)
@@ -80,6 +80,7 @@
 
 [2 Add2Numbers](files/2.md), [19 RemoveNthNodeFromEndOfList](files/19.md), [24 SwapNodesInPairs](files/24.md), [61 Rotate List](files/61.md), [82 RemoveDupfrom Sorted List II](files/82.md), [86 Partition List](files/86.md)<br>
 [92 Reverse Linked List II](files/92.md)<br>
+[138 CopyListWithRandomPointer](files/138.md)
 
 - Hard
   
@@ -88,19 +89,25 @@
 ## Tree
 - Easy<br>
 
-[100 Same Tree](./files/100.md), [101 Symmetric Tree](files/101.md), [104 MaxDepthOfBinaryTree](files/104.md), [108 ConvertSortedArrToBST](files/108.md), [110 Balanced Binary Tree](files/110.md), [111 MinDepthOfBinaryTree](files/111.md), [112 PathSum](files/112.md)
+[100 Same Tree](./files/100.md), [101 Symmetric Tree](files/101.md), [104 MaxDepthOfBinaryTree](files/104.md), [108 ConvertSortedArrToBST](files/108.md), [110 Balanced Binary Tree](files/110.md), [111 MinDepthOfBinaryTree](files/111.md), [112 PathSum](files/112.md),
+
+[572SubtreeOfAnotherTree](files/572.md), [572HasSubTree](files/572.md)
 - Medium<br>
 
 [94 Binary Tree Inorder Traversal](files/94.md), [102 BinaryTreeLevelOrderTraversal](files/102.md)<br>
 [95 Unique BST II](./files/95.md), [96 Unique BST](./files/96.md), [98 Validate BST](./files/98.md), [105 Construct BT From Preorder and Inorder](files/105.md), [113 PathSumII](files/113.md)<br>
-[114 FlattenBinaryTreeoLinkedList](files/114.md), [116 Populating NextRightPointersinEachNode](files/116.md), [117 116 II](files/117.md), [199 BinaryTreeRightSideView](files/199.md)
+[114 FlattenBinaryTreeoLinkedList](files/114.md), [116 Populating NextRightPointersinEachNode](files/116.md), [117 116 II](files/117.md), [199 BinaryTreeRightSideView](files/199.md)<br>
+[426 ConvertBSTToOrderedDoublyLinkedList](files/426.md), [1008ConstructBSTFromPreorder](files/1008.md)
 - Hard<br>
 
-[99 Recover BST](./files/99.md), [124 BinaryTreeMaximumPathSum](files/124.md)
+[99 Recover BST](./files/99.md), [124 BinaryTreeMaximumPathSum](files/124.md), [297SerializeAndDeserializeBinaryTree](files/297.md)
 
 ## Graph
-
+[133 CloneGraph](files/133.md)<br>
 [207 Course Schedule](files/207.md), [210 Course Schedule II](files/210.md), [332 Reconstruct Itinerary](files/332.md)
+
+## Sort
+[Sort](files/other/sort.md)
 
 ## Design
 
@@ -114,6 +121,10 @@
 [3 LongestSubstringWithoutRepeatingCharacters](files/3.md), [76 MinimumWindowSubstring](files/76.md), [209 MinimumSubArrLen](files/209.md)<br>
 [239 SlidingWindowMaximum](files/239.md)
 
+[1423 MaxPointsUCanObtainFromCards](files/1423.md)
+
++ #### Bit Operation
+[201 BitwiseANDOfNumRange](files/201.md)
 + #### Matrix
 
 [48 Rotate Image](files/48.md)
@@ -122,14 +133,15 @@
 + #### HashMap
   
 [30 SubstringWithConcatenationOfAllWords](files/30.md),[49 Group Anagrams](files/49.md)
+
 + #### Math
 
 [31 Next Permute](files/31.md), [43 MultiplyStrings](files/43.md),
-[29 DivideTwoIntegers](files/29.md), [50 Pow(x, n)](files/50.md), [69 Sqrt(x)](files/69.md), [326 PowerOfThree](files/326.md)
+[29 DivideTwoIntegers](files/29.md), [50 Pow(x, n)](files/50.md), [69 Sqrt(x)](files/69.md), [263 UglyNumber](files/263.md), [264 UglyNumberII](files/264.md), [326 PowerOfThree](files/326.md)
 
 + #### Parenthesis
   
-[20 ValidParenthesis](files/20.md), [22 Generate Parenthesis](files/22.md), [32 LongestValidParenthesis](files/32.md)<br>
+[20 ValidParenthesis](files/20.md), [22 Generate Parenthesis](files/22.md), [32 LongestValidParenthesis](files/32.md), [678 ValidParenthese](files/678.md)<br>
 
 + #### N Sum
 [1 2Sum](files/1.md), [15 3Sum](files/15.md), [16 3SumClosest](files/16.md), [18 4Sum](files/18.md)<br>
