@@ -1,0 +1,30 @@
+package CompanyTag.GSCoderPad;
+
+public class DistBetweenStrings {
+    public static double shortestDistance(String document, String w1, String w2) {
+        String[] words = document.split("[,. ]");
+        int index = 0;
+        double lastPos = -1d;
+        String lastWord = "";
+        double shortestDis = document.length();
+
+        for (String w : words) {
+            //!!!! equals(), no equalsTo()
+            if (w.equals(w1) || w.equals(w2)) { // <- w.equalsIgnoreCase()!!
+                if (lastPos != -1 && !w.equals(lastWord)) {
+                    double curDis = index + w.length() / 2.0 - lastPos;
+                    shortestDis = Math.min(shortestDis, curDis);
+                }
+
+                lastPos = index + w.length() / 2.0;
+                lastWord = w;
+            }
+
+            index += w.length() + 1;
+        }
+
+        //if (shortestDis == document.length()) return -1; <- missing this line!!
+
+        return shortestDis;
+    }
+}

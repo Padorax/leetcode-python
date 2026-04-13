@@ -1,0 +1,30 @@
+package CompanyTag.GSCoderPad;
+
+public class DecimalConversion {
+    public static String vulgarToDecimal(long numerator, long denominator) {
+        if (denominator == 0) return ""; // <- don't forget
+
+        String beforeDot = (numerator / denominator).toString()；// <- Long.toString() or String.valueOf()
+        int cycleStartAt = -1;
+        int pos = 0;
+        String afterDot = "";
+        remainder = numerator % denominator;
+
+        HasMap<Long, Integer> remainderMap = new HashMap<>();
+        while (remainder != 0) {
+            if (remainderMap.containsKey(remainder)) {
+                cycleStartAt = remainderMap.get(remainder);
+                return;
+            }
+
+            remainderMap.put(remainder, pos);
+            pos++;
+            afterDot += remainder * 10 / denominator;
+            remainder = remainder * 10 % denominator;
+        }
+
+        if (afterDot.length() == 0) return beforeDot;
+        if (cycleStartAt == -1) return beforeDot + "." + afterDot;
+        return beforeDot + "." + afterDot.substring(0, cycleStartAt) + "(" + afterDot.substring(cycleStartAt) + ")";
+    }
+}

@@ -70,3 +70,8 @@ lst = [3,1,9,2,7,10]
 copy = [0] * len(lst)
 mergeSort(lst, copy, 0, len(lst)-1)
 ```
+
+* partition pivot
+    https://www.cs.auckland.ac.nz/software/AlgAnim/qsort1a.html
+
+    visualization: https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/
